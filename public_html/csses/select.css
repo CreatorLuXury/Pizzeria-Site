@@ -1,0 +1,20 @@
+select{
+    /*position: relative;*/
+    width: 200px;
+    height: 34px;
+    line-height: 38px;
+    padding: 0 35px 0 8px;
+    color: #666;
+    border: 1px solid #cfcac4;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.box{
+    width: 40vw;
+    height: 40px;
+}
+
+.box select{
+    float: right;
+}

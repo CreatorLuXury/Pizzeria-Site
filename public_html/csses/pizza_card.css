@@ -1,0 +1,33 @@
+.card-outerborder{
+    padding: 10px;
+}
+.card-body {
+
+    border: 1.5px solid #ebebeb;
+    margin: 8px 0;
+}
+
+.card-body:hover{
+    background-color: #eef7fa;
+    box-shadow: 0 1px 1px #cfcac4;
+}
+
+.price{
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: -.5px;
+    font-family: Bold, sans-serif;
+    color: darkgreen;
+    margin: auto 0 0;
+}
+
+.menu-inside{
+    padding: 10px;
+}
+
+.show-more {
+    color: #1574f5;
+    font-size: 12px;
+    margin-top: 4px;
+    cursor: pointer;
+}

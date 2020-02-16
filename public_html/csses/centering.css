@@ -1,0 +1,33 @@
+div.center{
+    width: 92%;
+    margin-top: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+
+div.inside{
+    padding: 3% 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    div.center{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: 0;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+        background-color: white;
+        width: 300px;
+        padding: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    }
+
+    div.inside{
+        padding: 30px 0;
+    }
+}
